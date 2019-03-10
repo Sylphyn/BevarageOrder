@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "287975574983",
+    "firebase_url": "https://androideatit-9a971.firebaseio.com",
+    "project_id": "androideatit-9a971",
+    "storage_bucket": "androideatit-9a971.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287975574983:android:4f20a4284e0a8042",
+        "android_client_info": {
+          "package_name": "com.example.namhuan.bevarageorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287975574983-oull19t24lhb0ceroh2hs4daftt43bt9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.namhuan.bevarageorder",
+            "certificate_hash": "45549c3424053a6b704be8463a70ee99cb37d26a"
+          }
+        },
+        {
+          "client_id": "287975574983-2lsl1tfu5virdkbqr48pq23tn9nougtm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAICvUxpoEe_YGawIQXfqJkbvtS0mr5bRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287975574983-2lsl1tfu5virdkbqr48pq23tn9nougtm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
