@@ -19,6 +19,7 @@ import android.widget.TextView;
 import com.example.namhuan.bevarageorder.Interface.ItemClickListener;
 import com.example.namhuan.bevarageorder.Models.Category;
 import com.example.namhuan.bevarageorder.Models.Order;
+import com.example.namhuan.bevarageorder.Service.ListenOrder;
 import com.example.namhuan.bevarageorder.ViewHolder.MenuViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
@@ -77,6 +78,10 @@ public class Home extends AppCompatActivity
         layoutManager = new LinearLayoutManager(this);
         recycler_menu.setLayoutManager(layoutManager);
         loadMenu();
+
+        //Register Service
+        Intent service = new Intent(Home.this, ListenOrder.class);
+        startService(service);
     }
 
     private void loadMenu() {
